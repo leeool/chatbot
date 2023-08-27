@@ -5,10 +5,10 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.cjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf ./dist && tsup src/Chatbot/index.ts --format cjs,esm --dts",
+    "build": "rm -rf ./dist && tsc -p ./",
     "preview": "vite preview",
     "publish": "npm publish"
   },

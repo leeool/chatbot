@@ -1,6 +1,6 @@
 {
   "name": "minimal-chatbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -11,13 +11,11 @@
     "build": "rm -rf ./dist && tsup src/Chatbot/index.ts --format cjs,esm --dts",
     "preview": "vite preview",
     "publish": "npm publish"
-
   },
   "files": [
     "dist"
   ],
   "bin": "./dist/index.js",
-
   "dependencies": {
     "framer-motion": "^10.16.1"
   },

@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2015",
     "useDefineForClassFields": true,
     "lib": [
       "ES2020",
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "ESNext",
+    "module": "ES2015",
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    // "declarationMap": true,
+    // "sourceMap": true,
     "typeRoots": [
       "./src/types/global.d.ts"
     ],
@@ -24,7 +24,7 @@
     "baseUrl": ".",
     "rootDir": "src",
     "noUncheckedIndexedAccess": true,
-    "noEmit": true,
+    // "noEmit": true,
     /* Linting */
     "strict": true,
     "noUnusedLocals": false,

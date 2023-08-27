@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "rm -rf ./dist && tsc -p ./",
-    "preview": "vite preview",
-    "publish": "npm publish"
+    "preview": "vite preview"
   },
   "files": [
     "dist"

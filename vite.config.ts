@@ -6,6 +6,7 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [react()],
   build: {
+
     lib: {
       entry: resolve(__dirname, 'src/Chatbot/index.ts'),
       name: "chatbot",

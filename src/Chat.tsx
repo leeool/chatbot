@@ -1,6 +1,7 @@
 import React from 'react'
 import Message from './Message'
 import { Container } from './chat.styled'
+import { ChatbotProps, IMessage, IOption } from './types/global'
 
 
 const Chat = ({ data, firstMessage }: ChatbotProps) => {

@@ -1,4 +1,4 @@
-type IMessage = {
+export type IMessage = {
   id: string
   body: string | React.ReactNode
 } & ({
@@ -8,13 +8,13 @@ type IMessage = {
   options?: IOption[]
 })
 
-interface IOption {
+export interface IOption {
   nextMessageId?: string
   body: React.ReactNode
 }
 
 
-interface ChatbotProps {
+export interface ChatbotProps {
   data: IMessage[]
   firstMessage?: IMessage
 

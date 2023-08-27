@@ -13,10 +13,12 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    // "isolatedModules": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "typeRoots": [
+      "./src/types/global.d.ts"
+    ],
     "outDir": "dist",
     "jsx": "react-jsx",
     "baseUrl": ".",
@@ -28,12 +30,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src",
     "src/**/*"
   ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
 }

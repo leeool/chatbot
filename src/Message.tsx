@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Options, Option, MessageBody } from './message.styled'
 import { motion } from 'framer-motion'
+import { IMessage, IOption } from './types/global'
 
 interface IMessageChat {
   handleOption: (option: IOption) => void

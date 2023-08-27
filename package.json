@@ -3,7 +3,7 @@
   "version": "0.0.8",
   "type": "module",
   "license": "MIT",
-  "main": "./dist/index.js",
+  "main": "./dist/index.d.ts",
   "types": "./dist/types/global.d.ts",
   "scripts": {
     "dev": "vite",

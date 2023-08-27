@@ -23,6 +23,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "rootDir": "src",
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
     /* Linting */
     "strict": true,
     "noUnusedLocals": false,

@@ -5,7 +5,7 @@ import { ChatbotProps, IMessage, IOption } from './types/global'
 
 
 const Chat = ({ data, firstMessage }: ChatbotProps) => {
-  const [messages, setMessages] = React.useState<IMessage[]>(firstMessage ? [firstMessage] : [data[0]])
+  const [messages, setMessages] = React.useState<IMessage[]>([firstMessage])
   const chatRef = React.useRef<HTMLDivElement>(null)
   const bottomRef = React.useRef<HTMLDivElement>(null)
 

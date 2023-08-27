@@ -7,7 +7,7 @@
   "types": "./dist/types/global.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf ./dist && tsc -p ./",
+    "build": "rm -rf ./dist && tsup ./src/ --format mjs,esm --dts",
     "preview": "vite preview"
   },
   "files": [

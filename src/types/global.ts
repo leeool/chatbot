@@ -16,6 +16,6 @@ export interface IOption {
 
 export interface ChatbotProps {
   data: IMessage[]
-  firstMessage?: IMessage
+  firstMessage: IMessage
 
 }

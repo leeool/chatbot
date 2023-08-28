@@ -2,6 +2,8 @@
 
 Minimalist chatbot with React and Typescript.
 
+Fell free to contribute in this project.
+
 ## Dependencies
 
 All necessary dependencies are installed when the package is installed on the project

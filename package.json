@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gihub.com/leeool/minimal-chatbot.git"
+    "url": "https://github.com/leeool/minimal-chatbot.git"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

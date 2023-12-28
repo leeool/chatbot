@@ -1,4 +1,5 @@
 # minimal-chatbot
+![image](https://github.com/leeool/minimal-chatbot/assets/100002048/2052e628-6f80-44c1-a1e9-813ac895a971)
 
 Minimalist chatbot with React and Typescript.
 
@@ -122,8 +123,6 @@ function App() {
   )
 }
 ```
-
-![image](https://github.com/leeool/minimal-chatbot/assets/100002048/2052e628-6f80-44c1-a1e9-813ac895a971)
 
 ## Styles
 
